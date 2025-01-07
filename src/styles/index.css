@@ -1,3 +1,63 @@
-/* 
-    General Styles
-*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; 
+  color: #fff;
+}
+
+
+.character-card {
+  max-width: 900px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  color: #fff; 
+}
+
+.character-header img {
+  width: 100%;
+  height: auto;
+}
+
+.character-details {
+  padding: 20px;
+  text-align: center; 
+}
+
+.character-name {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.character-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #333; 
+  border-radius: 10px;
+}
+
+.info-column h3 {
+  font-size: 1.2rem;
+  color: #4a90e2; 
+  margin-bottom: 10px;
+}
+
+.info-column p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.info-column p:hover {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+
